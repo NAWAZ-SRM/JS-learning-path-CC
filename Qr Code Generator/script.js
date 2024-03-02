@@ -4,6 +4,7 @@ const wrapper = document.querySelector(".wrapper"),
   qrImg = wrapper.querySelector(".qr-code img");
 let preValue;
 
+
 generateBtn.addEventListener("click", () => {
   let qrValue = qrInput.value.trim();
   if (!qrValue || preValue === qrValue) return;
